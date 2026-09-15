@@ -1,0 +1,27 @@
+{
+  "name": "paginaweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "node scripts/build-css.js",
+    "dev:css": "node scripts/build-css.js --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aguirrecabezasherlinda-bit/PaginaWEB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aguirrecabezasherlinda-bit/PaginaWEB/issues"
+  },
+  "homepage": "https://github.com/aguirrecabezasherlinda-bit/PaginaWEB#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
