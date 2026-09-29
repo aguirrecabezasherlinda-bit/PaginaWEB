@@ -1,22 +1,32 @@
-<section id="contacto">
-
-    <h2>Contáctanos</h2>
-
-    <form>
-
-        <input type="text"
-               placeholder="Nombre">
-
-        <input type="email"
-               placeholder="Correo">
-
-        <textarea
-        placeholder="Mensaje"></textarea>
-
-        <button type="submit">
-            Enviar
-        </button>
-
-    </form>
-
+<section class="contact-section section-anchor" id="contacto" aria-labelledby="contact-title">
+    <div class="section-container">
+        <div class="contact-shell" data-reveal>
+            <div class="contact-copy">
+                <p class="section-kicker section-kicker-light">Estamos para ayudarte</p>
+                <h2 id="contact-title">Prepárate para tu <span>éxito</span></h2>
+                <p>Recibe información sobre nuestros programas, proceso de admisión y oportunidades de formación en el IESTP Huanta.</p>
+                <div class="contact-details">
+                    <a href="tel:+5166322296"><span aria-hidden="true">☎</span><span><small>Llámanos</small><strong>(066) 322296</strong></span></a>
+                    <a href="mailto:contactos@iestphuanta.edu.pe"><span aria-hidden="true">✉</span><span><small>Escríbenos</small><strong>contactos@iestphuanta.edu.pe</strong></span></a>
+                </div>
+            </div>
+            <form class="contact-form" id="contact-form" novalidate>
+                <div class="form-heading"><span>Contáctanos</span><small>Completa tus datos y te responderemos pronto.</small></div>
+                <div class="form-row">
+                    <label for="nombre">Nombre completo <span aria-hidden="true">*</span></label>
+                    <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" autocomplete="name" required>
+                </div>
+                <div class="form-row">
+                    <label for="correo">Correo electrónico <span aria-hidden="true">*</span></label>
+                    <input id="correo" name="correo" type="email" placeholder="tucorreo@ejemplo.com" autocomplete="email" required>
+                </div>
+                <div class="form-row">
+                    <label for="mensaje">Mensaje <span aria-hidden="true">*</span></label>
+                    <textarea id="mensaje" name="mensaje" placeholder="¿En qué podemos ayudarte?" rows="4" required></textarea>
+                </div>
+                <button class="button button-primary form-submit" type="submit">Enviar mensaje <span aria-hidden="true">→</span></button>
+                <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+            </form>
+        </div>
+    </div>
 </section>
